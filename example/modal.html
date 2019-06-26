@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>0</h1>
+  <button id="increment">Increment</button>
+  <button id="decrement">Decrement</button>
+  <script>
+    const modal = require('../modal')
+
+    document.querySelector('#increment').onclick = function () {
+      modal.send('increment', function (err, sum) {
+        document.querySelector('h1').innerHTML = sum
+      })
+    }
+
+    document.querySelector('#decrement').onclick = function () {
+      modal.send('decrement', function (err, sum) {
+        document.querySelector('h1').innerHTML = sum
+      })
+    }
+  </script>
+</body>
+</html>

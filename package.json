@@ -1,0 +1,25 @@
+{
+  "name": "electron-modal-window",
+  "version": "0.0.0",
+  "description": "Easily make electron modal windows",
+  "main": "modal.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nanotron": "^2.1.1",
+    "standard": "^12.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperdivision/electron-modal-window.git"
+  },
+  "scripts": {
+    "example": "cd example && nanotron",
+    "test": "standard"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyperdivision/electron-modal-window/issues"
+  },
+  "homepage": "https://github.com/hyperdivision/electron-modal-window"
+}
